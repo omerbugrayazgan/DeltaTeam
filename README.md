@@ -11,13 +11,13 @@ Students: <br>
 Uygulama ekran görüntüleri aşağıdaki gibidir. <br>
 
 #### Splash Screen
-![Splash Screen](./delta_splash.png) <br>
+<img src="./delta_splash.png" width="360" height="640" />
 
 #### Home Screen
-![Home Screen](./delta_home.png) <br>
+<img src="./delta_home.png" width="360" height="640" />
 
 #### Search Screen
-![Search Screen](./delta_search.png) <br>
+<img src="./delta_search.png" width="360" height="640" />
 
 #### Mobile
 ![mobile](./mobile-galaxy.png)
