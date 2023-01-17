@@ -1,14 +1,5 @@
-// @Path: lib/screens/splash_screen.dart
-
-// I want to build a netflix clone application, so here is the splash screen: (all centered)
-// This screen consist of fully covered image with a logo on the top and a text on the bottom.
-// On clicking the screen it will navigate to the home screen. (all images from network image)
-
-// So here is the code for the splash screen:
-
+import 'package:deltamovies/screens/app_shell.dart';
 import 'package:flutter/material.dart';
-
-import 'home_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
@@ -23,11 +14,12 @@ class _SplashScreenState extends State<SplashScreen> {
     super.initState();
     Future.delayed(
       const Duration(seconds: 3),
-      () {
+          () {
         Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-            builder: (context) => const HomeScreen(),
+            // appshell
+            builder: (context) => const AppShell(),
           ),
         );
       },
@@ -42,7 +34,7 @@ class _SplashScreenState extends State<SplashScreen> {
           Navigator.pushReplacement(
             context,
             MaterialPageRoute(
-              builder: (context) => const HomeScreen(),
+              builder: (context) => const AppShell(),
             ),
           );
         },
@@ -51,8 +43,7 @@ class _SplashScreenState extends State<SplashScreen> {
             Container(
               decoration: const BoxDecoration(
                 image: DecorationImage(
-                  image: NetworkImage(
-                      'https://im.haberturk.com/2022/04/23/ver1650788285/3418471_1920x1080.jpg'),
+                  image: NetworkImage('https://images.pexels.com/photos/10718272/pexels-photo-10718272.jpeg?auto=compress&cs=tinysrgb&w=315&h=187&dpr=2'),
                   fit: BoxFit.cover,
                 ),
               ),

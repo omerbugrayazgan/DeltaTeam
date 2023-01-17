@@ -8,6 +8,17 @@ Students: <br>
 
 ## Screenshots
 
+Uygulama ekran görüntüleri aşağıdaki gibidir. <br>
+
+#### Splash Screen
+![Splash Screen](./delta_splash.png) <br>
+
+#### Home Screen
+![Home Screen](./delta_home.png) <br>
+
+#### Search Screen
+![Search Screen](./delta_search.png) <br>
+
 #### Mobile
 ![mobile](./mobile-galaxy.png)
 

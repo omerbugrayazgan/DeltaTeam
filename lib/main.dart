@@ -12,10 +12,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      title: 'DeltaMovies',
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: const Color(0xFF0D1117),
         primaryColor: const Color(0xFF161B22),
-        accentColor: const Color(0xFF21262D),
         canvasColor: const Color(0xFF30363D),
         textTheme: const TextTheme(
           bodyText1: TextStyle(
@@ -23,9 +23,9 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
+      // first splash screen
       home: const SplashScreen(),
     );
   }
 }
-
 
